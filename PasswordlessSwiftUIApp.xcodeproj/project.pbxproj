@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -160,7 +160,6 @@
 				0A498EFEADAECA4BEC271EA2 /* Pods-PasswordlessSwiftUIAppTests.debug.xcconfig */,
 				C247F296253582FAD1E759D0 /* Pods-PasswordlessSwiftUIAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -573,6 +572,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordlessSwiftUIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PasswordlessSwiftUIApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -595,6 +595,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordlessSwiftUIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PasswordlessSwiftUIApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
