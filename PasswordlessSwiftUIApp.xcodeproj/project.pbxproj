@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E46D3CD25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3CC25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift */; };
+		0E46D3CF25531914003AF6E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3CE25531914003AF6E6 /* ContentView.swift */; };
+		0E46D3D125531917003AF6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E46D3D025531917003AF6E6 /* Assets.xcassets */; };
+		0E46D3D425531917003AF6E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E46D3D325531917003AF6E6 /* Preview Assets.xcassets */; };
+		0E46D3DF25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3DE25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift */; };
+		0E46D3EA25531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E46D3DB25531917003AF6E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E46D3C125531914003AF6E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E46D3C825531914003AF6E6;
+			remoteInfo = PasswordlessSwiftUIApp;
+		};
+		0E46D3E625531917003AF6E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E46D3C125531914003AF6E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E46D3C825531914003AF6E6;
+			remoteInfo = PasswordlessSwiftUIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E46D3C925531914003AF6E6 /* PasswordlessSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordlessSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E46D3CC25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordlessSwiftUIAppApp.swift; sourceTree = "<group>"; };
+		0E46D3CE25531914003AF6E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E46D3D025531917003AF6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E46D3D325531917003AF6E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E46D3D525531917003AF6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E46D3DA25531917003AF6E6 /* PasswordlessSwiftUIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordlessSwiftUIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E46D3DE25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordlessSwiftUIAppTests.swift; sourceTree = "<group>"; };
+		0E46D3E025531917003AF6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E46D3E525531917003AF6E6 /* PasswordlessSwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordlessSwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordlessSwiftUIAppUITests.swift; sourceTree = "<group>"; };
+		0E46D3EB25531917003AF6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E46D3C625531914003AF6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E46D3D725531917003AF6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E46D3E225531917003AF6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E46D3C025531914003AF6E6 = {
+			isa = PBXGroup;
+			children = (
+				0E46D3CB25531914003AF6E6 /* PasswordlessSwiftUIApp */,
+				0E46D3DD25531917003AF6E6 /* PasswordlessSwiftUIAppTests */,
+				0E46D3E825531917003AF6E6 /* PasswordlessSwiftUIAppUITests */,
+				0E46D3CA25531914003AF6E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E46D3CA25531914003AF6E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E46D3C925531914003AF6E6 /* PasswordlessSwiftUIApp.app */,
+				0E46D3DA25531917003AF6E6 /* PasswordlessSwiftUIAppTests.xctest */,
+				0E46D3E525531917003AF6E6 /* PasswordlessSwiftUIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E46D3CB25531914003AF6E6 /* PasswordlessSwiftUIApp */ = {
+			isa = PBXGroup;
+			children = (
+				0E46D3CC25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift */,
+				0E46D3CE25531914003AF6E6 /* ContentView.swift */,
+				0E46D3D025531917003AF6E6 /* Assets.xcassets */,
+				0E46D3D525531917003AF6E6 /* Info.plist */,
+				0E46D3D225531917003AF6E6 /* Preview Content */,
+			);
+			path = PasswordlessSwiftUIApp;
+			sourceTree = "<group>";
+		};
+		0E46D3D225531917003AF6E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E46D3D325531917003AF6E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E46D3DD25531917003AF6E6 /* PasswordlessSwiftUIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E46D3DE25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift */,
+				0E46D3E025531917003AF6E6 /* Info.plist */,
+			);
+			path = PasswordlessSwiftUIAppTests;
+			sourceTree = "<group>";
+		};
+		0E46D3E825531917003AF6E6 /* PasswordlessSwiftUIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */,
+				0E46D3EB25531917003AF6E6 /* Info.plist */,
+			);
+			path = PasswordlessSwiftUIAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E46D3C825531914003AF6E6 /* PasswordlessSwiftUIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E46D3EE25531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIApp" */;
+			buildPhases = (
+				0E46D3C525531914003AF6E6 /* Sources */,
+				0E46D3C625531914003AF6E6 /* Frameworks */,
+				0E46D3C725531914003AF6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordlessSwiftUIApp;
+			productName = PasswordlessSwiftUIApp;
+			productReference = 0E46D3C925531914003AF6E6 /* PasswordlessSwiftUIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E46D3D925531917003AF6E6 /* PasswordlessSwiftUIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E46D3F125531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIAppTests" */;
+			buildPhases = (
+				0E46D3D625531917003AF6E6 /* Sources */,
+				0E46D3D725531917003AF6E6 /* Frameworks */,
+				0E46D3D825531917003AF6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E46D3DC25531917003AF6E6 /* PBXTargetDependency */,
+			);
+			name = PasswordlessSwiftUIAppTests;
+			productName = PasswordlessSwiftUIAppTests;
+			productReference = 0E46D3DA25531917003AF6E6 /* PasswordlessSwiftUIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E46D3E425531917003AF6E6 /* PasswordlessSwiftUIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E46D3F425531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIAppUITests" */;
+			buildPhases = (
+				0E46D3E125531917003AF6E6 /* Sources */,
+				0E46D3E225531917003AF6E6 /* Frameworks */,
+				0E46D3E325531917003AF6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E46D3E725531917003AF6E6 /* PBXTargetDependency */,
+			);
+			name = PasswordlessSwiftUIAppUITests;
+			productName = PasswordlessSwiftUIAppUITests;
+			productReference = 0E46D3E525531917003AF6E6 /* PasswordlessSwiftUIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E46D3C125531914003AF6E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0E46D3C825531914003AF6E6 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					0E46D3D925531917003AF6E6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 0E46D3C825531914003AF6E6;
+					};
+					0E46D3E425531917003AF6E6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 0E46D3C825531914003AF6E6;
+					};
+				};
+			};
+			buildConfigurationList = 0E46D3C425531914003AF6E6 /* Build configuration list for PBXProject "PasswordlessSwiftUIApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E46D3C025531914003AF6E6;
+			productRefGroup = 0E46D3CA25531914003AF6E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E46D3C825531914003AF6E6 /* PasswordlessSwiftUIApp */,
+				0E46D3D925531917003AF6E6 /* PasswordlessSwiftUIAppTests */,
+				0E46D3E425531917003AF6E6 /* PasswordlessSwiftUIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E46D3C725531914003AF6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E46D3D425531917003AF6E6 /* Preview Assets.xcassets in Resources */,
+				0E46D3D125531917003AF6E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E46D3D825531917003AF6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E46D3E325531917003AF6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E46D3C525531914003AF6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E46D3CF25531914003AF6E6 /* ContentView.swift in Sources */,
+				0E46D3CD25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E46D3D625531917003AF6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E46D3DF25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E46D3E125531917003AF6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E46D3EA25531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E46D3DC25531917003AF6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E46D3C825531914003AF6E6 /* PasswordlessSwiftUIApp */;
+			targetProxy = 0E46D3DB25531917003AF6E6 /* PBXContainerItemProxy */;
+		};
+		0E46D3E725531917003AF6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E46D3C825531914003AF6E6 /* PasswordlessSwiftUIApp */;
+			targetProxy = 0E46D3E625531917003AF6E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E46D3EC25531917003AF6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E46D3ED25531917003AF6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E46D3EF25531917003AF6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordlessSwiftUIApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PasswordlessSwiftUIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.PasswordlessSwiftUIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E46D3F025531917003AF6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordlessSwiftUIApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PasswordlessSwiftUIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.PasswordlessSwiftUIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E46D3F225531917003AF6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordlessSwiftUIAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.PasswordlessSwiftUIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordlessSwiftUIApp.app/PasswordlessSwiftUIApp";
+			};
+			name = Debug;
+		};
+		0E46D3F325531917003AF6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordlessSwiftUIAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.PasswordlessSwiftUIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordlessSwiftUIApp.app/PasswordlessSwiftUIApp";
+			};
+			name = Release;
+		};
+		0E46D3F525531917003AF6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordlessSwiftUIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.PasswordlessSwiftUIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordlessSwiftUIApp;
+			};
+			name = Debug;
+		};
+		0E46D3F625531917003AF6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordlessSwiftUIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.PasswordlessSwiftUIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordlessSwiftUIApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E46D3C425531914003AF6E6 /* Build configuration list for PBXProject "PasswordlessSwiftUIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E46D3EC25531917003AF6E6 /* Debug */,
+				0E46D3ED25531917003AF6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E46D3EE25531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E46D3EF25531917003AF6E6 /* Debug */,
+				0E46D3F025531917003AF6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E46D3F125531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E46D3F225531917003AF6E6 /* Debug */,
+				0E46D3F325531917003AF6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E46D3F425531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E46D3F525531917003AF6E6 /* Debug */,
+				0E46D3F625531917003AF6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E46D3C125531914003AF6E6 /* Project object */;
+}
