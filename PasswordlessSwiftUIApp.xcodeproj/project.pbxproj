@@ -15,6 +15,10 @@
 		0E46D3DF25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3DE25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift */; };
 		0E46D3EA25531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */; };
 		0E46D3FB25531A41003AF6E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */; };
+		0E46D429255326E1003AF6E6 /* CustomStyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D428255326E1003AF6E6 /* CustomStyledTextField.swift */; };
+		0E46D42E25532709003AF6E6 /* CustomStyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D42D25532709003AF6E6 /* CustomStyledButton.swift */; };
+		0E46D43325532784003AF6E6 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D43225532784003AF6E6 /* AlertItem.swift */; };
+		0E901F8A25532CAC001F6656 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901F8925532CAC001F6656 /* SuccessView.swift */; };
 		4F8A826E593D8B9925196B57 /* Pods_PasswordlessSwiftUIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54075530E1EB7CBA35DCDE1C /* Pods_PasswordlessSwiftUIApp.framework */; };
 		605C1D86EF4C3A6BC7B1FA04 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884B157864B136994B98BEB2 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +56,10 @@
 		0E46D3EB25531917003AF6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E46D4242553258D003AF6E6 /* PasswordlessSwiftUIApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasswordlessSwiftUIApp.entitlements; sourceTree = "<group>"; };
+		0E46D428255326E1003AF6E6 /* CustomStyledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledTextField.swift; sourceTree = "<group>"; };
+		0E46D42D25532709003AF6E6 /* CustomStyledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledButton.swift; sourceTree = "<group>"; };
+		0E46D43225532784003AF6E6 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		0E901F8925532CAC001F6656 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		1A2BAFB01750E1F9E262C993 /* Pods-PasswordlessSwiftUIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp.release.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp.release.xcconfig"; sourceTree = "<group>"; };
 		4472E42A258F74437E37400C /* Pods-PasswordlessSwiftUIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp.debug.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp.debug.xcconfig"; sourceTree = "<group>"; };
 		54075530E1EB7CBA35DCDE1C /* Pods_PasswordlessSwiftUIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordlessSwiftUIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +130,10 @@
 				0E46D3D525531917003AF6E6 /* Info.plist */,
 				0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */,
 				0E46D3D225531917003AF6E6 /* Preview Content */,
+				0E46D428255326E1003AF6E6 /* CustomStyledTextField.swift */,
+				0E46D42D25532709003AF6E6 /* CustomStyledButton.swift */,
+				0E46D43225532784003AF6E6 /* AlertItem.swift */,
+				0E901F8925532CAC001F6656 /* SuccessView.swift */,
 			);
 			path = PasswordlessSwiftUIApp;
 			sourceTree = "<group>";
@@ -414,7 +426,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E46D3CF25531914003AF6E6 /* ContentView.swift in Sources */,
+				0E46D429255326E1003AF6E6 /* CustomStyledTextField.swift in Sources */,
 				0E46D3CD25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift in Sources */,
+				0E46D43325532784003AF6E6 /* AlertItem.swift in Sources */,
+				0E901F8A25532CAC001F6656 /* SuccessView.swift in Sources */,
+				0E46D42E25532709003AF6E6 /* CustomStyledButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
