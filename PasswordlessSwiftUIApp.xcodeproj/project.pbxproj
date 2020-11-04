@@ -13,6 +13,7 @@
 		0E46D3D425531917003AF6E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E46D3D325531917003AF6E6 /* Preview Assets.xcassets */; };
 		0E46D3DF25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3DE25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift */; };
 		0E46D3EA25531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */; };
+		0E46D3FB25531A41003AF6E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0E46D3E525531917003AF6E6 /* PasswordlessSwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordlessSwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordlessSwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		0E46D3EB25531917003AF6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				0E46D3CE25531914003AF6E6 /* ContentView.swift */,
 				0E46D3D025531917003AF6E6 /* Assets.xcassets */,
 				0E46D3D525531917003AF6E6 /* Info.plist */,
+				0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */,
 				0E46D3D225531917003AF6E6 /* Preview Content */,
 			);
 			path = PasswordlessSwiftUIApp;
@@ -235,6 +238,7 @@
 			files = (
 				0E46D3D425531917003AF6E6 /* Preview Assets.xcassets in Resources */,
 				0E46D3D125531917003AF6E6 /* Assets.xcassets in Resources */,
+				0E46D3FB25531A41003AF6E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
