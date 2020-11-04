@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0AF63078AA2C149B76013A /* Pods_PasswordlessSwiftUIAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A520D2D00D2B706EB345C9F1 /* Pods_PasswordlessSwiftUIAppTests.framework */; };
 		0E46D3CD25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3CC25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift */; };
 		0E46D3CF25531914003AF6E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3CE25531914003AF6E6 /* ContentView.swift */; };
 		0E46D3D125531917003AF6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E46D3D025531917003AF6E6 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		0E46D3DF25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3DE25531917003AF6E6 /* PasswordlessSwiftUIAppTests.swift */; };
 		0E46D3EA25531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */; };
 		0E46D3FB25531A41003AF6E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */; };
+		4F8A826E593D8B9925196B57 /* Pods_PasswordlessSwiftUIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54075530E1EB7CBA35DCDE1C /* Pods_PasswordlessSwiftUIApp.framework */; };
+		605C1D86EF4C3A6BC7B1FA04 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884B157864B136994B98BEB2 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A498EFEADAECA4BEC271EA2 /* Pods-PasswordlessSwiftUIAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIAppTests/Pods-PasswordlessSwiftUIAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E46D3C925531914003AF6E6 /* PasswordlessSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordlessSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E46D3CC25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordlessSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		0E46D3CE25531914003AF6E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		0E46D3E925531917003AF6E6 /* PasswordlessSwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordlessSwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		0E46D3EB25531917003AF6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E46D3FA25531A41003AF6E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A2BAFB01750E1F9E262C993 /* Pods-PasswordlessSwiftUIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp.release.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp.release.xcconfig"; sourceTree = "<group>"; };
+		4472E42A258F74437E37400C /* Pods-PasswordlessSwiftUIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp.debug.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp.debug.xcconfig"; sourceTree = "<group>"; };
+		54075530E1EB7CBA35DCDE1C /* Pods_PasswordlessSwiftUIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordlessSwiftUIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		884B157864B136994B98BEB2 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A520D2D00D2B706EB345C9F1 /* Pods_PasswordlessSwiftUIAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordlessSwiftUIAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C247F296253582FAD1E759D0 /* Pods-PasswordlessSwiftUIAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIAppTests.release.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIAppTests/Pods-PasswordlessSwiftUIAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F23AF9619B36D5D497567506 /* Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAEEE9FC8FFCE89A1CD362C8 /* Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8A826E593D8B9925196B57 /* Pods_PasswordlessSwiftUIApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0AF63078AA2C149B76013A /* Pods_PasswordlessSwiftUIAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605C1D86EF4C3A6BC7B1FA04 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0E46D3DD25531917003AF6E6 /* PasswordlessSwiftUIAppTests */,
 				0E46D3E825531917003AF6E6 /* PasswordlessSwiftUIAppUITests */,
 				0E46D3CA25531914003AF6E6 /* Products */,
+				40D2BF9769EBD8C1813FD0F2 /* Pods */,
+				6EB47C96CBCA69C3F3788E26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +150,30 @@
 			path = PasswordlessSwiftUIAppUITests;
 			sourceTree = "<group>";
 		};
+		40D2BF9769EBD8C1813FD0F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4472E42A258F74437E37400C /* Pods-PasswordlessSwiftUIApp.debug.xcconfig */,
+				1A2BAFB01750E1F9E262C993 /* Pods-PasswordlessSwiftUIApp.release.xcconfig */,
+				F23AF9619B36D5D497567506 /* Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.debug.xcconfig */,
+				FAEEE9FC8FFCE89A1CD362C8 /* Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.release.xcconfig */,
+				0A498EFEADAECA4BEC271EA2 /* Pods-PasswordlessSwiftUIAppTests.debug.xcconfig */,
+				C247F296253582FAD1E759D0 /* Pods-PasswordlessSwiftUIAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6EB47C96CBCA69C3F3788E26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54075530E1EB7CBA35DCDE1C /* Pods_PasswordlessSwiftUIApp.framework */,
+				884B157864B136994B98BEB2 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework */,
+				A520D2D00D2B706EB345C9F1 /* Pods_PasswordlessSwiftUIAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E46D3EE25531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIApp" */;
 			buildPhases = (
+				5963F8A98D40950BBE946F7A /* [CP] Check Pods Manifest.lock */,
 				0E46D3C525531914003AF6E6 /* Sources */,
 				0E46D3C625531914003AF6E6 /* Frameworks */,
 				0E46D3C725531914003AF6E6 /* Resources */,
+				562B12B45C67601B299D4FA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E46D3F125531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIAppTests" */;
 			buildPhases = (
+				8023CC5239D0F6B9F38DFD53 /* [CP] Check Pods Manifest.lock */,
 				0E46D3D625531917003AF6E6 /* Sources */,
 				0E46D3D725531917003AF6E6 /* Frameworks */,
 				0E46D3D825531917003AF6E6 /* Resources */,
@@ -175,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E46D3F425531917003AF6E6 /* Build configuration list for PBXNativeTarget "PasswordlessSwiftUIAppUITests" */;
 			buildPhases = (
+				170D6342166223FC4483B1A7 /* [CP] Check Pods Manifest.lock */,
 				0E46D3E125531917003AF6E6 /* Sources */,
 				0E46D3E225531917003AF6E6 /* Frameworks */,
 				0E46D3E325531917003AF6E6 /* Resources */,
+				EA3372D29031F3B517B94457 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		170D6342166223FC4483B1A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562B12B45C67601B299D4FA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5963F8A98D40950BBE946F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordlessSwiftUIApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8023CC5239D0F6B9F38DFD53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordlessSwiftUIAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3372D29031F3B517B94457 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests/Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E46D3C525531914003AF6E6 /* Sources */ = {
@@ -418,6 +567,7 @@
 		};
 		0E46D3EF25531917003AF6E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4472E42A258F74437E37400C /* Pods-PasswordlessSwiftUIApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +589,7 @@
 		};
 		0E46D3F025531917003AF6E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2BAFB01750E1F9E262C993 /* Pods-PasswordlessSwiftUIApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +611,7 @@
 		};
 		0E46D3F225531917003AF6E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A498EFEADAECA4BEC271EA2 /* Pods-PasswordlessSwiftUIAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +633,7 @@
 		};
 		0E46D3F325531917003AF6E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C247F296253582FAD1E759D0 /* Pods-PasswordlessSwiftUIAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +655,7 @@
 		};
 		0E46D3F525531917003AF6E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23AF9619B36D5D497567506 /* Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +675,7 @@
 		};
 		0E46D3F625531917003AF6E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAEEE9FC8FFCE89A1CD362C8 /* Pods-PasswordlessSwiftUIApp-PasswordlessSwiftUIAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
