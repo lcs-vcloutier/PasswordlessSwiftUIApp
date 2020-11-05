@@ -31,7 +31,7 @@ struct ContentView: View {
                     CustomStyledTextField(
                         text: $email, placeholder: "LCS Email", symbolName: "person.circle.fill"    // 1
                     )
-                    
+                    //
                     CustomStyledButton(title: "Send Sign In Link", action: sendSignInLink)    // 2
                         .disabled(email.isEmpty)
                     
