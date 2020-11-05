@@ -15,7 +15,7 @@ struct ContentView: View {
     
     // This property will cause an alert view to display when it has a non-nil value
     @State private var alertItem: AlertItem? = nil
-    
+
     var body: some View {
         
         NavigationView {
@@ -84,6 +84,11 @@ struct ContentView: View {
                 alertItem = AlertItem(
                     title: "The sign in link could not be sent.",
                     message: error.localizedDescription
+                )
+            }
+            else if error == nil {
+                alertItem = AlertItem(
+                    title: "The sign-in link was sent to \(email)", message:""
                 )
             }
         }
