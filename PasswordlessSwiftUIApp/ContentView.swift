@@ -12,12 +12,14 @@ struct ContentView: View {
     
     @State private var email: String = ""
     @State private var isPresentingSheet = false
+    @State private var hasSignedIn = UserDefaults.standard.bool(forKey: "tap")
+
     
     // This property will cause an alert view to display when it has a non-nil value
     @State private var alertItem: AlertItem? = nil
 
     var body: some View {
-        
+        if hasSignedIn == false {
         NavigationView {
             
             VStack(alignment: .leading) {
@@ -67,9 +69,8 @@ struct ContentView: View {
                 message: Text(alert.message)
             )
         }
-        
+        } else if hasSignedIn == true { Text("go")}
     }
-    
     private func sendSignInLink() {
         let actionCodeSettings = ActionCodeSettings()
         actionCodeSettings.url = URL(
@@ -103,6 +104,7 @@ struct ContentView: View {
             } else {
                 print("✔ Authentication was successful.")
                 completion(.success(result?.user))
+                UserDefaults.standard.set(self.hasSignedIn, forKey: "Tap")
             }
         }
     }
