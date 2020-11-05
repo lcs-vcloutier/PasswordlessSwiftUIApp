@@ -23,11 +23,11 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 
                 VStack(alignment: .leading) {
-                    Text("Authenticate users with only their email, no password required!")
-                        .padding(.bottom, 60)
+                    Text("Input your LCS email below, then follow the emailed link.")
+                        .padding(.bottom, 20)
                     
                     CustomStyledTextField(
-                        text: $email, placeholder: "Email", symbolName: "person.circle.fill"    // 1
+                        text: $email, placeholder: "LCS Email", symbolName: "person.circle.fill"    // 1
                     )
                     
                     CustomStyledButton(title: "Send Sign In Link", action: sendSignInLink)    // 2
@@ -36,7 +36,7 @@ struct ContentView: View {
                     Spacer()
                 }
                 .padding()
-                .navigationBarTitle("Passwordless Login")
+                .navigationBarTitle("LCS Leave")
                 
             }
             
