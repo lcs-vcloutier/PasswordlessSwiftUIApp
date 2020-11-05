@@ -28,6 +28,7 @@ struct SuccessView: View {
                         .font(.title3)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
+                    Text("Well done, user.")
                 }
                 .padding(.leading)
                 Image(systemName: "checkmark.circle")
