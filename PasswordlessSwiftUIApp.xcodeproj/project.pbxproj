@@ -595,7 +595,7 @@
 				CODE_SIGN_ENTITLEMENTS = PasswordlessSwiftUIApp/PasswordlessSwiftUIApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordlessSwiftUIApp/Preview Content\"";
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PasswordlessSwiftUIApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -619,7 +619,7 @@
 				CODE_SIGN_ENTITLEMENTS = PasswordlessSwiftUIApp/PasswordlessSwiftUIApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PasswordlessSwiftUIApp/Preview Content\"";
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PasswordlessSwiftUIApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
