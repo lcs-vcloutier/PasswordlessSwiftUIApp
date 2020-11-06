@@ -12,7 +12,6 @@ struct LeaveRequestView: View {
         @State private var typeOfLeave : Int = 0
         @State private var numberOfPeople: Int = 0
         @State private var time: Int = 0
-        @State private var name = ["", "", ""]
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -28,13 +27,13 @@ struct LeaveRequestView: View {
                             .pickerStyle(SegmentedPickerStyle())
                         }
         
-            CustomStyledButton(title: "Go to \(typesOfLeave[typeOfLeave])", action: {})    // 2
-               // .disabled(email.isEmpty)
-            
-           // Spacer()
+            CustomStyledButton(title: "Go to \(typesOfLeave[typeOfLeave])", action: {
+                // set time of leave do database logic etc. & go to during leave view
+                
+            })    // 2
+               
         }
         }
-        //.padding()
         .navigationBarTitle("Leave Request")
     }
 }
