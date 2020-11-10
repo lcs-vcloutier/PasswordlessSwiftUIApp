@@ -13,6 +13,8 @@ struct ContentView: View {
     @State private var isPresentingSheet = false
     @State private var loggedInBefore = false
     private var loggedInBeforeKey = "hasUserBeenHereBefore"
+    // Gain access to user defaults
+    let defaults = UserDefaults.standard
     
     // This property will cause an alert view to display when it has a non-nil value
     @State private var alertItem: AlertItem? = nil
@@ -41,9 +43,6 @@ struct ContentView: View {
             // When app is opened, retrieve data from UserDefaults storage
             print("Moving back to the foreground!")
 
-            // Gain access to user defaults
-            let defaults = UserDefaults.standard
-
             // Get the boolean
             loggedInBefore = defaults.bool(forKey: loggedInBeforeKey)
             }
@@ -68,7 +67,7 @@ struct ContentView: View {
         .sheet(isPresented: $isPresentingSheet) {
             SuccessView(email: email)
         }
-        .alert(item: $alertItem) { alert -> Alert in    
+        .alert(item: $alertItem) { alert -> Alert in
             Alert(
                 title: Text(alert.title),
                 message: Text(alert.message)
