@@ -12,14 +12,13 @@ struct ContentView: View {
     @State private var email: String = ""
     @State private var isPresentingSheet = false
     @State private var loggedInBefore = false
-    private var loggedInBefore = "hasUserBeenHereBefore"
+    private var loggedInBeforeKey = "hasUserBeenHereBefore"
     
     // This property will cause an alert view to display when it has a non-nil value
     @State private var alertItem: AlertItem? = nil
 
     var body: some View {
-       // if msg == false {
-        NavigationView {
+            NavigationView {
             
             VStack(alignment: .leading) {
                 
@@ -30,7 +29,6 @@ struct ContentView: View {
                     CustomStyledTextField(
                         text: $email, placeholder: "LCS Email", symbolName: "person.circle.fill"    // 1
                     )
-                    //
                     CustomStyledButton(title: "Send Sign In Link", action: sendSignInLink)    // 2
                         .disabled(email.isEmpty)
                     
@@ -38,14 +36,22 @@ struct ContentView: View {
                 }
                 .padding()
                 .navigationBarTitle("LCS Leave")
-                
             }
-            
-        }
+        }.onAppear() {
+            // When app is opened, retrieve data from UserDefaults storage
+            print("Moving back to the foreground!")
+
+            // Gain access to user defaults
+            let defaults = UserDefaults.standard
+
+            // Get the boolean
+            loggedInBefore = defaults.bool(forKey: loggedInBeforeKey)
+            }
+
         .onOpenURL { url in   // 2
             let link = url.absoluteString
-            if Auth.auth().isSignIn(withEmailLink: link) {    // 3
-                passwordlessSignIn(email: email, link: link) { result in    // 4
+            if Auth.auth().isSignIn(withEmailLink: link) {
+                passwordlessSignIn(email: email, link: link) { result in
                     switch result {
                     case let .success(user):
                         isPresentingSheet = user?.isEmailVerified ?? false
@@ -59,27 +65,26 @@ struct ContentView: View {
                 }
             }
         }
-        .sheet(isPresented: $isPresentingSheet) {   // 5
+        .sheet(isPresented: $isPresentingSheet) {
             SuccessView(email: email)
         }
-        .alert(item: $alertItem) { alert -> Alert in    // *
+        .alert(item: $alertItem) { alert -> Alert in    
             Alert(
                 title: Text(alert.title),
                 message: Text(alert.message)
             )
         }
-        //} else if msg == true { Text("go")}
     }
     private func sendSignInLink() {
         let actionCodeSettings = ActionCodeSettings()
         actionCodeSettings.url = URL(
-            string: "https://russellgordon.page.link/zXbp"    // 1
+            string: "https://russellgordon.page.link/zXbp"
         )
         actionCodeSettings.handleCodeInApp = true
         actionCodeSettings.setIOSBundleID(Bundle.main.bundleIdentifier!)
         
         Auth.auth().sendSignInLink(toEmail: email,
-                                   actionCodeSettings: actionCodeSettings) { error in   // 2
+                                   actionCodeSettings: actionCodeSettings) { error in
             if let error = error {
                 alertItem = AlertItem(
                     title: "The sign in link could not be sent.",
@@ -90,11 +95,9 @@ struct ContentView: View {
                 alertItem = AlertItem(
                     title: "The sign-in link was sent to \(email)", message:""
                 )
-               
             }
         }
     }
-    
     private func passwordlessSignIn(email: String, link: String,
                                     completion: @escaping (Result<User?, Error>) -> Void) {
         Auth.auth().signIn(withEmail: email, link: link) { result, error in
@@ -104,12 +107,11 @@ struct ContentView: View {
             } else {
                 print("✔ Authentication was successful.")
                 completion(.success(result?.user))
-                self.msg = true
-                UserDefaults.standard.set(self.msg, forKey: "Bool")
+                loggedInBefore = true
+                defaults.set(loggedInBefore, forKey: loggedInBeforeKey)
             }
         }
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -117,4 +119,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
