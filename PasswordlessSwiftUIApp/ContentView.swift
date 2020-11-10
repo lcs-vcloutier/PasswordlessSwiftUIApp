@@ -8,47 +8,17 @@
 import SwiftUI
 import Firebase
 
-//struct hasLoggedInItem: Identifiable, Codable {
-//    var id: ObjectIdentifier
-//
-//    let hasLoggedInBool: Bool
-//}
-//
-//class Expenses: ObservableObject {
-//    @Published var items: [hasLoggedInItem] {
-//        didSet {
-//            let encoder = JSONEncoder()
-//            if let encoded = try? encoder.encode(items) {
-//                UserDefaults.standard.set(encoded, forKey: "Items")
-//            }
-//        }
-//    }
-//    init() {
-//        if let items = UserDefaults.standard.data(forKey: "Items") {
-//            let decoder = JSONDecoder()
-//            if let decoded = try? decoder.decode([hasLoggedInItem].self, from: items) {
-//                self.items = decoded
-//                return
-//            }
-//        }
-//
-//        self.items = []
-//    }
-//}
-
 struct ContentView: View {
-    var hasSignedIn = false
     @State private var email: String = ""
     @State private var isPresentingSheet = false
-    @State var msg = false
-    @State var retrieved = ""
-    
+    @State private var loggedInBefore = false
+    private var loggedInBefore = "hasUserBeenHereBefore"
     
     // This property will cause an alert view to display when it has a non-nil value
     @State private var alertItem: AlertItem? = nil
 
     var body: some View {
-        if msg == false {
+       // if msg == false {
         NavigationView {
             
             VStack(alignment: .leading) {
@@ -98,7 +68,7 @@ struct ContentView: View {
                 message: Text(alert.message)
             )
         }
-        } else if msg == true { Text("go")}
+        //} else if msg == true { Text("go")}
     }
     private func sendSignInLink() {
         let actionCodeSettings = ActionCodeSettings()
