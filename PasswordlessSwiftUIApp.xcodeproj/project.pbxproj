@@ -20,6 +20,7 @@
 		0E46D43325532784003AF6E6 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46D43225532784003AF6E6 /* AlertItem.swift */; };
 		0E901F8A25532CAC001F6656 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E901F8925532CAC001F6656 /* SuccessView.swift */; };
 		2A3BAF0325544300009A3FFB /* LeaveRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3BAF0225544300009A3FFB /* LeaveRequestView.swift */; };
+		2AA13AC2255C3BC60090B5DF /* DuringLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA13AC1255C3BC50090B5DF /* DuringLeaveView.swift */; };
 		4F8A826E593D8B9925196B57 /* Pods_PasswordlessSwiftUIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54075530E1EB7CBA35DCDE1C /* Pods_PasswordlessSwiftUIApp.framework */; };
 		605C1D86EF4C3A6BC7B1FA04 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884B157864B136994B98BEB2 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		0E901F8925532CAC001F6656 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		1A2BAFB01750E1F9E262C993 /* Pods-PasswordlessSwiftUIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp.release.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp.release.xcconfig"; sourceTree = "<group>"; };
 		2A3BAF0225544300009A3FFB /* LeaveRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRequestView.swift; sourceTree = "<group>"; };
+		2AA13AC1255C3BC50090B5DF /* DuringLeaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuringLeaveView.swift; sourceTree = "<group>"; };
 		4472E42A258F74437E37400C /* Pods-PasswordlessSwiftUIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessSwiftUIApp.debug.xcconfig"; path = "Target Support Files/Pods-PasswordlessSwiftUIApp/Pods-PasswordlessSwiftUIApp.debug.xcconfig"; sourceTree = "<group>"; };
 		54075530E1EB7CBA35DCDE1C /* Pods_PasswordlessSwiftUIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordlessSwiftUIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		884B157864B136994B98BEB2 /* Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordlessSwiftUIApp_PasswordlessSwiftUIAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +139,7 @@
 				0E46D43225532784003AF6E6 /* AlertItem.swift */,
 				0E901F8925532CAC001F6656 /* SuccessView.swift */,
 				2A3BAF0225544300009A3FFB /* LeaveRequestView.swift */,
+				2AA13AC1255C3BC50090B5DF /* DuringLeaveView.swift */,
 			);
 			path = PasswordlessSwiftUIApp;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E46D3CF25531914003AF6E6 /* ContentView.swift in Sources */,
+				2AA13AC2255C3BC60090B5DF /* DuringLeaveView.swift in Sources */,
 				2A3BAF0325544300009A3FFB /* LeaveRequestView.swift in Sources */,
 				0E46D429255326E1003AF6E6 /* CustomStyledTextField.swift in Sources */,
 				0E46D3CD25531914003AF6E6 /* PasswordlessSwiftUIAppApp.swift in Sources */,
