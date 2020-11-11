@@ -9,7 +9,14 @@ import SwiftUI
 
 struct DuringLeaveView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+                CustomStyledButton(title: "Check In", action: {
+                    // send the location back to database with sign in time if valid & return to leave request view
+                })
+            Spacer()
+        }
+        .padding()
+        .navigationBarTitle("Check In")
     }
 }
 
